@@ -52,3 +52,9 @@ legend{
 
 /*Quando clicar no input eu quero que a label vai para cima do input - por isso a ação é no input*/
     
+.inputUser:focus ~ .labelinput, /*executar uma ação na nossa label*/
+.inputUser:valid ~ .labelinput{ /*qdo o input tiver válido,eu quero que ele execute essa ação para a label - a informação irá permanecer no input, senão irá ficar por cima*/
+    top: -20px;
+    font-size: 20px;
+    color: dodgerblue;
+}
