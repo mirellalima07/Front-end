@@ -1,0 +1,18 @@
+header{
+    background-color: rgb(253, 209, 247);
+    padding: 20px;
+}
+
+#logo{
+    border-radius: 10px;
+}
+
+.titulo-principal{
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-30%, -15%);
+    font-size: 35px;
+    /*font-family:barlow;*/
+}
