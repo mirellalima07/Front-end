@@ -1,0 +1,72 @@
+<!Doctype html>
+<html lamg="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Contato22/05</title>
+
+        <link rel="stylesheet" href="contato.css.css">
+        <link rel="stylesheet" href="link" rel="link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet">
+    </head>
+   <body>
+        <header>
+
+            <img id="logo" src="pink.png">
+            <h1 class="titulo-principal">FLower shop</h1>
+
+        </header>
+        <main>
+            <form>
+                <label for="nomesobrenome">Nome e Sobrenome</label>
+                <input type="text" name="nome" id="nomesobrenome" class="input-padrao" placeholder="Seu nome e sobrenome"required>
+                <br><br>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="input-padrao" placeholder="seuemail@dominio.com" required>
+                <br><br>
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" class="input-padrao" placeholder="(xx) xxxxx-xxxx"required>
+                <br><br>
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="70" rows="10" id="mensagem" placeholder="Digite seu texto aqui!" required></textarea>
+                <br><br>
+
+                <section>
+
+                    <p>Como prefere nosso contato?</p>
+
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+                    <br><br>
+
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    <br><br>
+
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
+                    <br><br>
+                </section>
+                <section>
+                    <p>Qual horário prefere ser atendido?</p>
+                    <select>
+                        <option>Manhã</option>
+                        <!--dropdown - seleções selecionáveis-->
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </section>
+
+                <label class="checkbox">
+                <input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+                <br><br>
+                <input type="submit" value="Enviar formulário" class="enviar">
+                <br><br>
+            </form>
+        </main>
+        <footer>
+            <img id="logo" src="logo.png">
+            <p class="copyright">&copy; Copyright -- Mirella Ramos</p>
+        </footer>
+    </body>
+</html>
