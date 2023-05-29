@@ -1,0 +1,50 @@
+header{
+    background-color: rgb(253, 209, 247);
+    padding: 20px;
+}
+
+#logo{
+    border-radius: 10px;
+}
+
+@font-face{
+    font-family:'Cormorant-bold';
+    src: url(CormorantGaramont-bold.ttf) format(truetype);
+}
+
+.titulo-principal{
+    font-family: 'Cormorant Garamond', serif;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    transform: translate(-25%, -100%);
+    font-size: 35px;
+    /* cormorant-bold, sem serifa;*/
+    /*font-family:barlow;*/
+
+}
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0; /*margem superior e inferior de 40 px, para os lados zero */
+}
+
+form label, form p{
+    /*vamos replicar a mesma configuração dp form label para o parágrafo, por isso, o uso da vírgula*/
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;/* 10px para baixo*/
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;/*20px para baixo*/
+    padding: 10px 25px;/*10px p/ cima e p/baixo e 25px p/ os lados*/
+
+    widht: 50%; /* largura dos meus inputs*/
+}
+
