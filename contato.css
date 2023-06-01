@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(253, 209, 247);
+    background-color: rgb(0, 206, 209);
     padding: 20px;
 }
 
@@ -7,12 +7,87 @@ header{
     border-radius: 10px;
 }
 
+@font-face{
+    font-family:'Cormorant-bold';
+    src: url(CormorantGaramont-bold.ttf) format(truetype);
+}
+
 .titulo-principal{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Cormorant Garamond', serif;
     position: absolute;
-    top: 18%;
-    left: 50%;
-    transform: translate(-30%, -15%);
+    top: 10%;
+    left: 45%;
+    transform: translate(-25%, -100%);
     font-size: 35px;
+    /* cormorant-bold, sem serifa;*/
     /*font-family:barlow;*/
+
+}
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0; /*margem superior e inferior de 40 px, para os lados zero */
+}
+
+form label, form p{
+    /*vamos replicar a mesma configuração dp form label para o parágrafo, por isso, o uso da vírgula*/
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;/* 10px para baixo*/
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;/*20px para baixo*/
+    padding: 10px 25px;/*10px p/ cima e p/baixo e 25px p/ os lados*/
+
+    widht: 50%; /* largura dos meus inputs*/
+}
+    
+.checkbox{
+    margin: 20px 0; /* 20px p/ cima e p/ baixo e zero nas laterais*/
+ }
+
+ .enviar{
+    width:40%;
+    padding: 15px 0;
+    background: rgb(243, 198, 237);
+    color:rgb(256, 153, 238);
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+ }
+
+ .enviar:hover{
+    background: darkturquoise;
+    transform: sacale(1.2);
+ }
+
+ .copyright{
+    color:rgb(18, 20, 19);
+    font-size: 13px;
+    margin:10px 0 0;
+ }
+
+ footer{
+    text-align: center;
+    background-color: darkturquoise;
+    /*Esta proptiedade é utilizada para inserir imagens como plano de fundo de um elemento. Para isso, fazemos uso da função url(), para a qual passamos como parâmetro o caminho da imagem a ser inserida.*/
+
+    padding: 10px 0;
+
+ }
+
+ #logo1{
+    border-radius: 10px;
+    height: 120px;
+    width: 130px;
+    border: rgb(22, 18, 21) 5px solid;
 }
