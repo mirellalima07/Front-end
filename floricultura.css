@@ -1,0 +1,17 @@
+.cabeçalho{
+    background-Color: pink;
+    width: auto;
+    height: 250px;
+
+}
+.conteudo{
+    background-Color: rgb(87, 195, 238);
+    width: auto;
+    height: 700px;
+}
+
+.rodape{
+    background-Color: pink;
+    width: auto;
+    height: 150px;
+}
