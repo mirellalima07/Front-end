@@ -1,0 +1,25 @@
+table{
+    width:50%;
+    text-align:center;
+    position:absolute;
+    left:27%;
+    top:35%;
+    background-color: rgb(145, 248, 240);
+}
+
+body{
+    background-color: rgb(243, 131, 243);
+}
+
+.Fernanda{
+        background-color: rgb(243, 241, 143);
+}
+.Bella{
+    background-color: rgb(151, 245, 148);
+}
+.Arthur{
+    background-color: rgb(255, 168, 175);
+}
+.Pedro{
+    background-color: rgb(161, 188, 248);
+}
