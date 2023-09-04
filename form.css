@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(247, 152, 215);
+
+}
+
+h1{
+    text-align:center;
+
+}
+
+label{
+    left: 0%;
+
+}
+
+input{
+    border-radios: 15px;
+
+ }
+
+ fieldset{
+    text-align: center;
+    width: 450px;
+    height: 650px;
+    left: 36%;
+    position: absolute;
+
+ }
+
+ img{
+    height: 100px;
+    width: 100px;
+    left: 80%;
+    position: absolute;
+    top:0%;
+ }
